@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{81AAE4CC-7F74-435B-836B-03FB59A3A04D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Streamiz.Kafka.SQL", "core\core\Streamiz.Kafka.SQL.csproj", "{2B1425EC-AA97-4507-8E6B-11880ECA40D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Launcher", "Launcher", "{908428C4-F1C0-4152-9180-9FB627F9A653}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleStart", "samples\SampleStart\SampleStart.csproj", "{EE9261D4-75E4-4E5D-8C35-902A9572B463}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B1425EC-AA97-4507-8E6B-11880ECA40D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B1425EC-AA97-4507-8E6B-11880ECA40D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B1425EC-AA97-4507-8E6B-11880ECA40D5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2B1425EC-AA97-4507-8E6B-11880ECA40D5}.Debug|x64.Build.0 = Debug|Any CPU
+		{2B1425EC-AA97-4507-8E6B-11880ECA40D5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2B1425EC-AA97-4507-8E6B-11880ECA40D5}.Debug|x86.Build.0 = Debug|Any CPU
+		{2B1425EC-AA97-4507-8E6B-11880ECA40D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B1425EC-AA97-4507-8E6B-11880ECA40D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B1425EC-AA97-4507-8E6B-11880ECA40D5}.Release|x64.ActiveCfg = Release|Any CPU
+		{2B1425EC-AA97-4507-8E6B-11880ECA40D5}.Release|x64.Build.0 = Release|Any CPU
+		{2B1425EC-AA97-4507-8E6B-11880ECA40D5}.Release|x86.ActiveCfg = Release|Any CPU
+		{2B1425EC-AA97-4507-8E6B-11880ECA40D5}.Release|x86.Build.0 = Release|Any CPU
+		{EE9261D4-75E4-4E5D-8C35-902A9572B463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE9261D4-75E4-4E5D-8C35-902A9572B463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE9261D4-75E4-4E5D-8C35-902A9572B463}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EE9261D4-75E4-4E5D-8C35-902A9572B463}.Debug|x64.Build.0 = Debug|Any CPU
+		{EE9261D4-75E4-4E5D-8C35-902A9572B463}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EE9261D4-75E4-4E5D-8C35-902A9572B463}.Debug|x86.Build.0 = Debug|Any CPU
+		{EE9261D4-75E4-4E5D-8C35-902A9572B463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE9261D4-75E4-4E5D-8C35-902A9572B463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE9261D4-75E4-4E5D-8C35-902A9572B463}.Release|x64.ActiveCfg = Release|Any CPU
+		{EE9261D4-75E4-4E5D-8C35-902A9572B463}.Release|x64.Build.0 = Release|Any CPU
+		{EE9261D4-75E4-4E5D-8C35-902A9572B463}.Release|x86.ActiveCfg = Release|Any CPU
+		{EE9261D4-75E4-4E5D-8C35-902A9572B463}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B1425EC-AA97-4507-8E6B-11880ECA40D5} = {81AAE4CC-7F74-435B-836B-03FB59A3A04D}
+		{EE9261D4-75E4-4E5D-8C35-902A9572B463} = {908428C4-F1C0-4152-9180-9FB627F9A653}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09CA3427-5074-4EA3-8EBE-C09272948C4D}
+	EndGlobalSection
+EndGlobal
